@@ -22,11 +22,11 @@
     $('.main-menu a[href="'+ region +'"]').addClass('active'); 
   });
   
-})
+});
 document.getElementById("home").addEventListener("click", myFunction);  
 
 
-(function myFunction(){
+function myFunction(){
   console.log('CLICKED');
     document.body.style.backgroundImage = 'none';
     var pyke = location.hash.toString() || $('.main-menu a:first').attr('href');
@@ -46,6 +46,6 @@ document.getElementById("home").addEventListener("click", myFunction);
       document.body.style.backgroundImage = 'none';
       console.log("huhhuh");
     }
-})
+};
 
   (jQuery);
