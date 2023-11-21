@@ -12,7 +12,7 @@
     
     // Now show the region specified in the URL hash
     $(region).show();
-    var bkimg = region + ".jpg";
+    document.body.style.backgroundImage = ["url" + "('" + region + ".jpg')"];
     
     // Highlight the menu link associated with this region by adding the .active CSS class
     $('.main-menu a[href="'+ region +'"]').addClass('active'); 
