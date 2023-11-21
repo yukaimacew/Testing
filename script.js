@@ -1,16 +1,16 @@
 (function ($) {
-  
+  console.log('test');
 
   $(window).on('load hashchange', function(){
     
     // First hide all content regions, then show the content-region specified in the URL hash 
     $('.content-region').hide();
-  
+  console.log('omg');
     
     // Remove any active classes on the main-menu
     $('.main-menu a').removeClass('active');
     var region = location.hash.toString() || $('.main-menu a:first').attr('href');
-
+    console.log('region successful' + region);
     
     // Now show the region specified in the URL hash
     $(region).show();
@@ -28,6 +28,7 @@ function myFunction(){
   console.log('CLICKED');
     document.body.style.backgroundImage = 'none';
     var pyke = location.hash.toString() || $('.main-menu a:first').attr('href');
+    console.log(pyke);
     var bkimg = pyke.replace(/[&\/\\#,+()$~%.'":*?<>{}]/g, '');
     console.log(bkimg);
 
