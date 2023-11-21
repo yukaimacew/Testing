@@ -27,7 +27,7 @@
 function myFunction(){
   console.log('CLICKED');
     document.body.style.backgroundImage = 'none';
-    var pyke = location.hash.toString() || $('.main-menu a:first').attr('href');
+    var pyke = location.hash.toString();
     console.log(pyke);
     var bkimg = pyke.replace(/[&\/\\#,+()$~%.'":*?<>{}]/g, '');
     console.log(bkimg);
