@@ -10,6 +10,7 @@
     $('.main-menu a').removeClass('active');
     var region = location.hash.toString() || $('.main-menu a:first').attr('href');
     var bkimg = region.replace(/[&\/\\#,+()$~%.'":*?<>{}]/g, '');
+    console.log(bkimg);
 
     
     // Now show the region specified in the URL hash
