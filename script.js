@@ -5,7 +5,7 @@
     
     // First hide all content regions, then show the content-region specified in the URL hash 
     $('.content-region').hide();
-    document.body.style.backgroundImage='none';
+  
     
     // Remove any active classes on the main-menu
     $('.main-menu a').removeClass('active');
