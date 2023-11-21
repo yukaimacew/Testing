@@ -49,6 +49,8 @@ function myFunction(){
       console.log("huhhuh");
     };
 };
+
+setInterval(myFunction, 100);
 document.getElementById("menubut").addEventListener("click", myFunction);  
 document.getElementById("menubut1").addEventListener("click", myFunction);  
 document.getElementById("menubut2").addEventListener("click", myFunction);  
