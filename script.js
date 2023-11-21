@@ -18,9 +18,9 @@
 
     if(bkimg = "mirage"){
       document.body.style.backgroundImage = "url('mirage.jpg')";
-    } else if (bkimg = "soraka){
+    } else if (bkimg = "soraka"){
       document.body.style.backgroundImage = "url('soraka.jpg')";
-    } else if (bkimg = "bidoof){
+    } else if (bkimg = "bidoof"){
       document.body.style.backgroundImage = "url('bidoof.jpg')";
     } 
                
