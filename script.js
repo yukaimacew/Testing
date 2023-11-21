@@ -15,7 +15,7 @@
     document.body.style.backgroundColor = 'transparent';
     document.body.style.backgroundImage = "url('mirage.jpg')";
     document.body.style.backgroundSize = "cover";
-    document.body.style.backgroundPosition = "center center";
+    document.body.style.backgroundPosition = "top left";
     document.body.style.backgroundRepeat = "no-repeat";
     document.body.style.backgroundAttachment = "fixed";
     
