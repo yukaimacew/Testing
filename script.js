@@ -44,7 +44,7 @@ function myFunction(){
       document.body.style.backgroundImage = "url('bidoof.jpg')";
       console.log("bibarel");
     } else {
-
+      document.body.style.backgroundImage='none';
       document.body.style.backgroundColor = 'grey';
       console.log("huhhuh");
     };
