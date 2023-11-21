@@ -9,11 +9,12 @@
     // Remove any active classes on the main-menu
     $('.main-menu a').removeClass('active');
     var region = location.hash.toString() || $('.main-menu a:first').attr('href');
+    var bkimg = location.toString(); 
     
     // Now show the region specified in the URL hash
     $(region).show();
     document.body.style.backgroundColor = 'transparent';
-    document.body.style.backgroundImage = "url('mirage.jpg')";
+    document.body.style.backgroundImage = "url('" + bkimg + ".jpg')";
     document.body.style.backgroundSize = "cover";
     document.body.style.backgroundPosition = "centre centre";
     document.body.style.backgroundRepeat = "no-repeat";
