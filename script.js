@@ -24,15 +24,13 @@
   
 })
 document.getElementById("home").addEventListener("click", myFunction);  
-document.getElementById("mirageBut").addEventListener("click", myFunction);  
-document.getElementById("sorakaBut").addEventListener("click", myFunction);  
-document.getElementById("bidoofBut").addEventListener("click", myFunction);  
+
 
 (function myFunction(){
   console.log('CLICKED');
     document.body.style.backgroundImage = 'none';
-    var region = location.hash.toString() || $('.main-menu a:first').attr('href');
-    var bkimg = region.replace(/[&\/\\#,+()$~%.'":*?<>{}]/g, '');
+    var pyke = location.hash.toString() || $('.main-menu a:first').attr('href');
+    var bkimg = pyke.replace(/[&\/\\#,+()$~%.'":*?<>{}]/g, '');
     console.log(bkimg);
 
     if(bkimg == "mirage"){
