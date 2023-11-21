@@ -28,7 +28,7 @@ document.getElementById("mirageBut").addEventListener("click", myFunction);
 document.getElementById("sorakaBut").addEventListener("click", myFunction);  
 document.getElementById("bidoofBut").addEventListener("click", myFunction);  
 
-function myFunction(){
+(function myFunction(){
   console.log('CLICKED');
     document.body.style.backgroundImage = 'none';
     var region = location.hash.toString() || $('.main-menu a:first').attr('href');
@@ -48,6 +48,6 @@ function myFunction(){
       document.body.style.backgroundImage = 'none';
       console.log("huhhuh");
     }
-}
+})
 
   (jQuery);
