@@ -9,7 +9,7 @@
     // Remove any active classes on the main-menu
     $('.main-menu a').removeClass('active');
     var region = location.hash.toString() || $('.main-menu a:first').attr('href');
-    var bkimg = location.toString(); 
+    let bkimg = location.toString(); 
     
     // Now show the region specified in the URL hash
     $(region).show();
@@ -20,7 +20,7 @@
     document.body.style.backgroundRepeat = "no-repeat";
     document.body.style.backgroundAttachment = "fixed";
     
-    
+    var bkimg = "";
     // Highlight the menu link associated with this region by adding the .active CSS class
     $('.main-menu a[href="'+ region +'"]').addClass('active'); 
   });
