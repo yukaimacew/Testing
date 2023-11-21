@@ -26,22 +26,25 @@
 
 function myFunction(){
   console.log('CLICKED');
-    document.body.style.backgroundImage = 'none';
     var pyke = location.hash.toString();
     console.log(pyke);
     var bkimg = pyke.replace(/[&\/\\#,+()$~%.'":*?<>{}]/g, '');
     console.log(bkimg);
 
     if(bkimg == "mirage"){
+      document.body.style.backgroundImage = 'none';
       document.body.style.backgroundImage = "url('mirage.jpg')";
       console.log("hihihi");
     } else if (bkimg == "soraka"){
+      document.body.style.backgroundImage = 'none';
       document.body.style.backgroundImage = "url('soraka.jpg')";
       console.log("goodbye");
     } else if (bkimg == "bidoof"){
+      document.body.style.backgroundImage = 'none';
       document.body.style.backgroundImage = "url('bidoof.jpg')";
       console.log("bibarel");
     } else {
+      document.body.style.backgroundImage = 'none';
       document.body.style.backgroundImage = 'none';
       console.log("huhhuh");
     };
