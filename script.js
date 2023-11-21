@@ -32,20 +32,20 @@ function myFunction(){
     console.log(bkimg);
 
     if(bkimg == "mirage"){
-      document.body.style.backgroundImage = 'none';
+
       document.body.style.backgroundImage = "url('mirage.jpg')";
       console.log("hihihi");
     } else if (bkimg == "soraka"){
-      document.body.style.backgroundImage = 'none';
+
       document.body.style.backgroundImage = "url('soraka.jpg')";
       console.log("goodbye");
     } else if (bkimg == "bidoof"){
-      document.body.style.backgroundImage = 'none';
+
       document.body.style.backgroundImage = "url('bidoof.jpg')";
       console.log("bibarel");
     } else {
-      document.body.style.backgroundImage = 'none';
-      document.body.style.backgroundImage = 'none';
+
+      document.body.style.backgroundColor = 'grey';
       console.log("huhhuh");
     };
 };
