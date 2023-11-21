@@ -15,7 +15,7 @@
     
     // Now show the region specified in the URL hash
     $(region).show();
-
+    document.body.style.backgroundImage='none';
     if(bkimg = "mirage"){
       document.body.style.backgroundImage = "url('mirage.jpg')";
     } else if (bkimg = "soraka"){
