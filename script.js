@@ -12,13 +12,7 @@
     
     // Now show the region specified in the URL hash
     $(region).show();
-    document.body.style.backgroundColor = 'transparent';
-    document.body.style.backgroundImage = "url('mirage.jpg')";
-    document.body.style.backgroundSize = "cover";
-    document.body.style.backgroundPosition = "centre centre";
-    document.body.style.backgroundRepeat = "no-repeat";
-    document.body.style.backgroundAttachment = "fixed";
-    
+
  
     // Highlight the menu link associated with this region by adding the .active CSS class
     $('.main-menu a[href="'+ region +'"]').addClass('active'); 
