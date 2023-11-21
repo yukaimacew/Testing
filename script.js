@@ -47,4 +47,8 @@ function myFunction(){
     };
 };
 document.getElementById("menubut").addEventListener("click", myFunction);  
+document.getElementById("menubut1").addEventListener("click", myFunction);  
+document.getElementById("menubut2").addEventListener("click", myFunction);  
+document.getElementById("menubut3").addEventListener("click", myFunction);  
+document.getElementById("menubut4").addEventListener("click", myFunction);  
   (jQuery);
