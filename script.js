@@ -18,10 +18,13 @@
     $(region).show();
     
     if(bkimg = "mirage"){
+      document.body.style.backgroundImage='none';
       document.body.style.backgroundImage = "url('mirage.jpg')";
     } else if (bkimg = "soraka"){
+      document.body.style.backgroundImage='none';
       document.body.style.backgroundImage = "url('soraka.jpg')";
     } else if (bkimg = "bidoof"){
+      document.body.style.backgroundImage='none';
       document.body.style.backgroundImage = "url('bidoof.jpg')";
     } else {
       document.body.style.backgroundImage = 'none';
