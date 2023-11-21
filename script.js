@@ -15,9 +15,15 @@
     
     // Now show the region specified in the URL hash
     $(region).show();
-    
-    document.body.style.backgroundImage = "url('" +bkimg+ ".jpg')";
- 
+
+    if(bkimg = "mirage"){
+      document.body.style.backgroundImage = "url('mirage.jpg')";
+    } else if (bkimg = "soraka){
+      document.body.style.backgroundImage = "url('soraka.jpg')";
+    } else if (bkimg = "bidoof){
+      document.body.style.backgroundImage = "url('bidoof.jpg')";
+    } 
+               
     // Highlight the menu link associated with this region by adding the .active CSS class
     $('.main-menu a[href="'+ region +'"]').addClass('active'); 
   });
