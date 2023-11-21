@@ -15,6 +15,9 @@
     document.body.style.backgroundColor = 'transparent';
     document.body.style.backgroundImage = "url('mirage.jpg')";
     document.body.style.backgroundSize = "cover";
+    document.body.style.backgroundPosition = "center center";
+    document.body.style.backgroundRepeat = "no-repeat";
+    
     
     // Highlight the menu link associated with this region by adding the .active CSS class
     $('.main-menu a[href="'+ region +'"]').addClass('active'); 
