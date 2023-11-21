@@ -22,7 +22,7 @@
       document.body.style.backgroundImage = "url('soraka.jpg')";
     } else if (bkimg = "bidoof"){
       document.body.style.backgroundImage = "url('bidoof.jpg')";
-    } 
+    };
                
     // Highlight the menu link associated with this region by adding the .active CSS class
     $('.main-menu a[href="'+ region +'"]').addClass('active'); 
