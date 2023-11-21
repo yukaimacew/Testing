@@ -13,7 +13,7 @@
     // Now show the region specified in the URL hash
     $(region).show();
     document.body.style.backgroundColor = 'transparent';
-    document.body.style.backgroundImage = "url('" + bkimg + ".jpg')";
+    document.body.style.backgroundImage = "url('mirage.jpg')";
     document.body.style.backgroundSize = "cover";
     document.body.style.backgroundPosition = "centre centre";
     document.body.style.backgroundRepeat = "no-repeat";
