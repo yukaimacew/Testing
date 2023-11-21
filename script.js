@@ -17,6 +17,7 @@
     document.body.style.backgroundSize = "cover";
     document.body.style.backgroundPosition = "center center";
     document.body.style.backgroundRepeat = "no-repeat";
+    document.body.style.backgroundAttachment = "fixed";
     
     
     // Highlight the menu link associated with this region by adding the .active CSS class
