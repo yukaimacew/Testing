@@ -35,13 +35,13 @@ function myFunction(){
     var bkimg = region.replace(/[&\/\\#,+()$~%.'":*?<>{}]/g, '');
     console.log(bkimg);
 
-    if(bkimg = "mirage"){
+    if(bkimg == "mirage"){
       document.body.style.backgroundImage = "url('mirage.jpg')";
       console.log("hihihi");
-    } else if (bkimg = "soraka"){
+    } else if (bkimg == "soraka"){
       document.body.style.backgroundImage = "url('soraka.jpg')";
       console.log("goodbye");
-    } else if (bkimg = "bidoof"){
+    } else if (bkimg == "bidoof"){
       document.body.style.backgroundImage = "url('bidoof.jpg')";
       console.log("bibarel");
     } else {
