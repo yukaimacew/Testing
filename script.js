@@ -23,7 +23,7 @@
   });
   
 });
-document.getElementById("home").addEventListener("click", myFunction);  
+
 
 
 function myFunction(){
@@ -45,7 +45,7 @@ function myFunction(){
     } else {
       document.body.style.backgroundImage = 'none';
       console.log("huhhuh");
-    }
+    };
 };
-
+document.getElementById("home").addEventListener("click", myFunction);  
   (jQuery);
