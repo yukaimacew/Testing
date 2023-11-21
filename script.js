@@ -5,6 +5,7 @@
     
     // First hide all content regions, then show the content-region specified in the URL hash 
     $('.content-region').hide();
+    document.body.style.backgroundImage='none';
     
     // Remove any active classes on the main-menu
     $('.main-menu a').removeClass('active');
@@ -15,14 +16,16 @@
     
     // Now show the region specified in the URL hash
     $(region).show();
-    document.body.style.backgroundImage='none';
+    
     if(bkimg = "mirage"){
       document.body.style.backgroundImage = "url('mirage.jpg')";
     } else if (bkimg = "soraka"){
       document.body.style.backgroundImage = "url('soraka.jpg')";
     } else if (bkimg = "bidoof"){
       document.body.style.backgroundImage = "url('bidoof.jpg')";
-    };
+    } else {
+      document.body.style.backgroundImage = 'none';
+    }
                
     // Highlight the menu link associated with this region by adding the .active CSS class
     $('.main-menu a[href="'+ region +'"]').addClass('active'); 
