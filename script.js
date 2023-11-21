@@ -47,5 +47,5 @@ function myFunction(){
       console.log("huhhuh");
     };
 };
-document.getElementById("home").addEventListener("click", myFunction);  
+document.getElementById("menubut").addEventListener("click", myFunction);  
   (jQuery);
