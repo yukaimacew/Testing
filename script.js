@@ -50,7 +50,7 @@ function myFunction(){
     };
 };
 
-setInterval(myFunction, 50);
+setInterval(myFunction, 1);
 document.getElementById("menubut").addEventListener("click", myFunction);  
 document.getElementById("menubut1").addEventListener("click", myFunction);  
 document.getElementById("menubut2").addEventListener("click", myFunction);  
